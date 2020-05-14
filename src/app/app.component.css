@@ -1,0 +1,38 @@
+.container{ 
+    border: 2px solid #ac2020;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:100%;  
+    padding: 0;
+    width: 2960px;
+    position: relative;
+    line-height: 1.4em;
+}
+
+@media only screen and (max-width: 479px){
+    .container { width: 90%; }
+}
+
+.first_inner_container{
+    height: 30%;
+    background-color: #bb1919;
+}
+
+.second_inner_container{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30%;
+    background-color: #e3eff8;
+    border: 1px solid rgb(156, 140, 212);
+    position: relative;
+}
+
+#input_word_to_translate{
+    width: 95%;
+    height: 40px;
+    border: 1px solid rgb(156, 140, 212);
+    position: absolute;
+    bottom: 20px;
+    text-align:center;
+}
